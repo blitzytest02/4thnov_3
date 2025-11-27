@@ -1,0 +1,25 @@
+{
+  "name": "4thnov_3",
+  "version": "1.0.0",
+  "description": "Node.js tutorial project featuring a /hello endpoint",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose",
+    "test:ci": "jest --ci --coverage --watchAll=false"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  }
+}
