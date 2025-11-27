@@ -1,7 +1,7 @@
 {
   "name": "4thnov_3",
   "version": "1.0.0",
-  "description": "Node.js tutorial project featuring a /hello endpoint",
+  "description": "Node.js tutorial project featuring a /hello endpoint that returns 'Hello world' to HTTP clients",
   "main": "src/index.js",
   "private": true,
   "scripts": {
@@ -12,6 +12,15 @@
     "test:verbose": "jest --verbose",
     "test:ci": "jest --ci --coverage --watchAll=false"
   },
+  "keywords": [
+    "nodejs",
+    "express",
+    "tutorial",
+    "hello-world",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
   "engines": {
     "node": ">=18.0.0"
   },
